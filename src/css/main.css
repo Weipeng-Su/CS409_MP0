@@ -9,13 +9,14 @@ body {
 
 div {
   background-color: gray;
-  width: 800px;      /* fixed square size */
-  height: 600px;     /* same as width to make it square */
+  width: 800px;
+  height: 600px;
   display: flex;
-  flex-direction: column; /* stack image on top of h1 */
+  flex-direction: column;
   justify-content: flex-start;
   align-items: center;
   color: white;
+  border-radius: 8px;
 }
 
 div img {
@@ -23,11 +24,12 @@ div img {
   height: 150px;
   object-fit: cover; /* ensures the image doesn't stretch */
   margin-top: 20px;
+  border-radius: 8px;
 }
 
 div h1 {
-  margin: 0;            /* remove browser default margin */
-  margin-bottom: 5px;   /* small space between name and email */
+  margin: 0; /* remove browser default margin */
+  margin-bottom: 5px;
   margin-top: 20px;
 }
 
@@ -35,7 +37,6 @@ div h1 {
   font-style: italic;
 }
 
-/* GitHub link styling */
 div a {
   color: purple;
   text-decoration: none;
